@@ -6,7 +6,7 @@
 
                 <div class="entry-content">
                     <div class="inner">
-                        <p><?php esc_html_e( 'Sorry! We could not find your page. Perhaps searching can help.', 'bitz' ); ?></p>
+                        <p><?php esc_html_e( 'Sorry! We could not find your page. Perhaps searching can help.', 'scope' ); ?></p>
 
                         <?php get_search_form(); ?>
 

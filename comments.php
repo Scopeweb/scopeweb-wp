@@ -17,13 +17,13 @@ if ( post_password_required() ) {
     <?php if ( have_comments() ) : ?>
 
         <h3 class="comments-title">
-            <?php printf( _n( '1 Comment', '%1$s Comments', get_comments_number(), 'bitz' ), number_format_i18n( get_comments_number() ) ); ?>
+            <?php printf( _n( '1 Comment', '%1$s Comments', get_comments_number(), 'scope' ), number_format_i18n( get_comments_number() ) ); ?>
         </h3>
 
         <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
             <nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
-                <div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'bitz' ) ); ?></div>
-                <div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'bitz' ) ); ?></div>
+                <div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'scope' ) ); ?></div>
+                <div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'scope' ) ); ?></div>
             </nav><!-- #comment-nav-above -->
         <?php endif; // Check for comment navigation. ?>
 
@@ -40,8 +40,8 @@ if ( post_password_required() ) {
 
         <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : ?>
             <nav id="comment-nav-below" class="navigation comment-navigation" role="navigation">
-                <div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'bitz' ) ); ?></div>
-                <div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'bitz' ) ); ?></div>
+                <div class="nav-previous"><?php previous_comments_link( esc_html__( 'Older Comments', 'scope' ) ); ?></div>
+                <div class="nav-next"><?php next_comments_link( esc_html__( 'Newer Comments', 'scope' ) ); ?></div>
             </nav><!-- #comment-nav-below -->
         <?php endif; // Check for comment navigation. ?>
 
