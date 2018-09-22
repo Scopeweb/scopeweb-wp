@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html <?php language_attribute(); ?>>
+<html <?php language_attributes(); ?>>
 
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -20,7 +20,7 @@
     }
 
     if ( class_exists('Mobile_Detect') ){
-        $detet = new Mobile_Detect;
+        $detect = new Mobile_Detect;
         if ( $detect->isMobile() ) {
             $body_class = '';
         }
