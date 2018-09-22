@@ -6,7 +6,7 @@
 </div><!-- #wrapper -->
 
 <nav id="mobile-site-navigation">
-<span class="mobile-menu-header"><span class="mobile-menu-heading"><?php esc_html_e('Menu', 'bitz') ?></span><i class="fa fa-times toggle-mobile-menu"></i></span>
+<span class="mobile-menu-header"><span class="mobile-menu-heading"><?php esc_html_e('Menu', 'scope') ?></span><i class="fa fa-times toggle-mobile-menu"></i></span>
 <?php wp_nav_menu( array( 'theme_location' => 'mobile', 'container' => false, 'fallback_cb' => 'scope_no_menu', 'after' => '<span></span>' ) ); ?>
 <?php get_sidebar('mobile-menu'); ?>	
 </nav><!-- #mobile-site-navigation -->

@@ -116,7 +116,7 @@ function scope_scripts() {
     // Default typo
     $body_typo_array = ot_get_options('body-font');
     if ( empty( $body_typo_array['font-family'] ) ) {
-        wp_register_style= 'scope_google-font-lato', 'https://fonts.googleapis.com/css?family=Lato:400,300,700,900', null, null, 'all');
+        wp_register_style( 'scope_google-font-lato', 'https://fonts.googleapis.com/css?family=Lato:400,300,700,900', null, null, 'all');
         wp_enqueue_style( 'scope_google-font-lato' );
     }
     $menu_typo_array = ot_get_option('menu-font');

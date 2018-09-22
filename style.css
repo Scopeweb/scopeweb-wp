@@ -1162,7 +1162,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	@media only screen and (max-width : 1200px){ 
 	
 	/* Auxiliary class */	
-	.bitz-hide-on-1200 {display:none;}
+	.scope-hide-on-1200 {display:none;}
 	
 	/* Menu sidebar */
 	#menu-sidebar {display:none;}
@@ -1210,7 +1210,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	@media only screen and (max-width: 979px) {
 	
 	/* Auxiliary class */	
-	.bitz-hide-on-tablet {display:none;}
+	.scope-hide-on-tablet {display:none;}
 	
 	/* Header */
 	#mobile-site-logo, #mobile-site-logo img {display: inline-block;}
@@ -1269,7 +1269,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 	@media only screen and (max-width: 767px) {
 	
 	/* Auxiliary class */	
-	.bitz-hide-on-mobile {display:none;}
+	.scope-hide-on-mobile {display:none;}
 	
 	/* Header */
 	#header-sidebar,#top-bar {display:none;}
