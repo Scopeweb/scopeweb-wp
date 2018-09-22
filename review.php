@@ -52,7 +52,7 @@
 	<?php endif; ?>
 	
 	<span class="review_author" itemprop="author" itemscope itemtype="http://schema.org/Person">
-		<a itemprop="url" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) ?>" title="<?php echo esc_attr(sprintf( __( 'View all posts by %s', 'bitz' ), get_the_author() )) ?>">
+		<a itemprop="url" href="<?php echo esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) ?>" title="<?php echo esc_attr(sprintf( __( 'View all posts by %s', 'scope' ), get_the_author() )) ?>">
 			<span itemprop="name"><?php echo esc_html(get_the_author()) ?></span>
 		</a>
 	</span>

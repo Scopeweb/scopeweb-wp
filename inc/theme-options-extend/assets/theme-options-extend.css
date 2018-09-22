@@ -41,12 +41,12 @@ div.section-title{display:block; font-size:13px; font-weight:bold; padding: 14px
 }
 
 /* Custom description */
-#mnky_featured_image_caption .format-setting .description {float:none; width:100%; margin-bottom:10px;}
-#mnky_featured_image_caption .format-setting .description:before {display:none;}
-#mnky_featured_image_caption .format-setting .format-setting-inner {width:100%; float:none;}
+#scope_featured_image_caption .format-setting .description {float:none; width:100%; margin-bottom:10px;}
+#scope_featured_image_caption .format-setting .description:before {display:none;}
+#scope_featured_image_caption .format-setting .format-setting-inner {width:100%; float:none;}
 
 /* Post templates option */
-#mnky_post_templates .format-setting-wrap{padding:10px 0 0;}
+#scope_post_templates .format-setting-wrap{padding:10px 0 0;}
 
 
 /* Previews */
